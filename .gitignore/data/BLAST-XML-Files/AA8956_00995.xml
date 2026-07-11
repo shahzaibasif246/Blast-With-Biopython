@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="US-ASCII"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.17.0+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>swissprot</BlastOutput_db>
+  <BlastOutput_query-ID>Query_1715873</BlastOutput_query-ID>
+  <BlastOutput_query-def>unnamed protein product</BlastOutput_query-def>
+  <BlastOutput_query-len>942</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_1715873</Iteration_query-ID>
+  <Iteration_query-def>unnamed protein product</Iteration_query-def>
+  <Iteration_query-len>942</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>sp|Q5ZI67.1|</Hit_id>
+  <Hit_def>RecName: Full=NHL repeat-containing protein 2 [Gallus gallus]</Hit_def>
+  <Hit_accession>Q5ZI67</Hit_accession>
+  <Hit_len>727</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>40.4318</Hsp_bit-score>
+      <Hsp_score>93</Hsp_score>
+      <Hsp_evalue>0.0779891</Hsp_evalue>
+      <Hsp_query-from>114</Hsp_query-from>
+      <Hsp_query-to>196</Hsp_query-to>
+      <Hsp_hit-from>218</Hsp_hit-from>
+      <Hsp_hit-to>296</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>30</Hsp_identity>
+      <Hsp_positive>43</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>85</Hsp_align-len>
+      <Hsp_qseq>LRLPTAVATD--GTILAVADTQNNRVLLWRSIPTTNGQPADIVLGQPAFDRLKPVTVDARSLRAPQGVWIQNGKLFVADTQNHRV</Hsp_qseq>
+      <Hsp_hseq>LLFPGKVTVDKSGERLVIADTGHHRIL----VTLKNGQILHTI-GGPNSGR-KDGRFSEAAFNSPQGVAIKNNVIYVADTENHLI</Hsp_hseq>
+      <Hsp_midline>L  P  V  D  G  L +ADT ++R+L    +   NGQ    + G P   R K       +  +PQGV I+N  ++VADT+NH +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>sp|A4IF69.1|</Hit_id>
+  <Hit_def>RecName: Full=NHL repeat-containing protein 2 [Bos taurus]</Hit_def>
+  <Hit_accession>A4IF69</Hit_accession>
+  <Hit_len>726</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>39.2762</Hsp_bit-score>
+      <Hsp_score>90</Hsp_score>
+      <Hsp_evalue>0.195595</Hsp_evalue>
+      <Hsp_query-from>127</Hsp_query-from>
+      <Hsp_query-to>196</Hsp_query-to>
+      <Hsp_hit-from>238</Hsp_hit-from>
+      <Hsp_hit-to>301</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>27</Hsp_identity>
+      <Hsp_positive>39</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>71</Hsp_align-len>
+      <Hsp_qseq>LAVADTQNNRVLL-WRSIPTTNGQPADIVLGQPAFDRLKPVTVDARSLRAPQGVWIQNGKLFVADTQNHRV</Hsp_qseq>
+      <Hsp_hseq>LVIADTGHHRILVVWK-----NGQ-IQYSIGGPNPGR-KDGIFSESSFNSPQGVAIMNNIIYVADTENHLI</Hsp_hseq>
+      <Hsp_midline>L +ADT ++R+L+ W+     NGQ     +G P   R K       S  +PQGV I N  ++VADT+NH +</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>35.4242</Hsp_bit-score>
+      <Hsp_score>80</Hsp_score>
+      <Hsp_evalue>2.55867</Hsp_evalue>
+      <Hsp_query-from>119</Hsp_query-from>
+      <Hsp_query-to>264</Hsp_query-to>
+      <Hsp_hit-from>416</Hsp_hit-from>
+      <Hsp_hit-to>558</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>41</Hsp_identity>
+      <Hsp_positive>78</Hsp_positive>
+      <Hsp_gaps>23</Hsp_gaps>
+      <Hsp_align-len>156</Hsp_align-len>
+      <Hsp_qseq>AVATDG--TILAVADTQNNRVLLWRSIPTTNGQPADIVLGQP------AFDRLKPVTVDARSLRAPQGV-WIQNGKL-FVADTQNHRVLIWNSIPTQNEQPADIVLGQANMNVAVEPDLTLATINAQANTLLNPVSVTSDGVRLYVADLGHNRVLI</Hsp_qseq>
+      <Hsp_hseq>SLASEGPWSCLFVADSESSTV---RTVSLKDGAVKHLVGGERDPMNLFAFGDVDGVGINAR-LQHPLGVTWDQKRNLLYVADSYNHKIKVVDP-KTKN---CTTLAGTGNASNMIGSSFTDSTFNEPGG-----LCIGENGQLLYVADTNNHQIKV</Hsp_hseq>
+      <Hsp_midline>++A++G  + L VAD++++ V   R++   +G    +V G+       AF  +  V ++AR L+ P GV W Q   L +VAD+ NH++ + +   T+N      + G  N +  +    T +T N         + +  +G  LYVAD  ++++ +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>sp|Q8NBF2.1|</Hit_id>
+  <Hit_def>RecName: Full=NHL repeat-containing protein 2 [Homo sapiens]</Hit_def>
+  <Hit_accession>Q8NBF2</Hit_accession>
+  <Hit_len>726</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>38.5058</Hsp_bit-score>
+      <Hsp_score>88</Hsp_score>
+      <Hsp_evalue>0.294359</Hsp_evalue>
+      <Hsp_query-from>114</Hsp_query-from>
+      <Hsp_query-to>196</Hsp_query-to>
+      <Hsp_hit-from>223</Hsp_hit-from>
+      <Hsp_hit-to>301</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>30</Hsp_identity>
+      <Hsp_positive>43</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>86</Hsp_align-len>
+      <Hsp_qseq>LRLPTAVATDGTI--LAVADTQNNRVLL-WRSIPTTNGQPADIVLGQPAFDRLKPVTVDARSLRAPQGVWIQNGKLFVADTQNHRV</Hsp_qseq>
+      <Hsp_hseq>LLFPGKVTVDQVTDRLVIADTGHHRILVVWK-----NGQ-IQYSIGGPNPGR-KDGIFSESTFNSPQGVAIMNNIIYVADTENHLI</Hsp_hseq>
+      <Hsp_midline>L  P  V  D     L +ADT ++R+L+ W+     NGQ     +G P   R K       +  +PQGV I N  ++VADT+NH +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>sp|Q8BZW8.1|</Hit_id>
+  <Hit_def>RecName: Full=NHL repeat-containing protein 2 [Mus musculus]</Hit_def>
+  <Hit_accession>Q8BZW8</Hit_accession>
+  <Hit_len>725</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>36.1946</Hsp_bit-score>
+      <Hsp_score>82</Hsp_score>
+      <Hsp_evalue>1.80436</Hsp_evalue>
+      <Hsp_query-from>114</Hsp_query-from>
+      <Hsp_query-to>196</Hsp_query-to>
+      <Hsp_hit-from>223</Hsp_hit-from>
+      <Hsp_hit-to>301</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>30</Hsp_identity>
+      <Hsp_positive>42</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>85</Hsp_align-len>
+      <Hsp_qseq>LRLPTAVATDGTI--LAVADTQNNRVLLWRSIPTTNGQPADIVLGQPAFDRLKPVTVDARSLRAPQGVWIQNGKLFVADTQNHRV</Hsp_qseq>
+      <Hsp_hseq>LLFPGKVAVDHATGRLVVADTGHHRIL----VIQKNGRIQSSI-GGPNPGR-KDGMFSESSFNSPQGVAIADNVIYVADTENHLI</Hsp_hseq>
+      <Hsp_midline>L  P  VA D     L VADT ++R+L    +   NG+    + G P   R K       S  +PQGV I +  ++VADT+NH +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>sp|B8D7V3.1|</Hit_id>
+  <Hit_def>RecName: Full=Sulfate adenylyltransferase subunit 1; AltName: Full=ATP-sulfurylase large subunit; AltName: Full=Sulfate adenylate transferase; Short=SAT [Buchnera aphidicola str. Tuc7 (Acyrthosiphon pisum)]</Hit_def>
+  <Hit_accession>B8D7V3</Hit_accession>
+  <Hit_len>473</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>34.2686</Hsp_bit-score>
+      <Hsp_score>77</Hsp_score>
+      <Hsp_evalue>5.47041</Hsp_evalue>
+      <Hsp_query-from>525</Hsp_query-from>
+      <Hsp_query-to>604</Hsp_query-to>
+      <Hsp_hit-from>49</Hsp_hit-from>
+      <Hsp_hit-to>128</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>24</Hsp_identity>
+      <Hsp_positive>37</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>82</Hsp_align-len>
+      <Hsp_qseq>YEPVLGVVKLQAKVAGTAGNEIDLAVSVEAASKDATANITVTASGSKLDGGENAAVIA--PGTLVTMFGHDLADQTVAADLS</Hsp_qseq>
+      <Hsp_hseq>YDDQLFFLKSDSKRHGTQGNEIDLALVVDGLQSEREQGITIDVAYRYFSTNKRKFIIADTPGH--EQYTRNMATGASTCDLS</Hsp_hseq>
+      <Hsp_midline>Y+  L  +K  +K  GT GNEIDLA+ V+    +    IT+  +       +   +IA  PG     +  ++A      DLS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>sp|P57498.1|</Hit_id>
+  <Hit_def>RecName: Full=Sulfate adenylyltransferase subunit 1; AltName: Full=ATP-sulfurylase large subunit; AltName: Full=Sulfate adenylate transferase; Short=SAT [Buchnera aphidicola str. APS (Acyrthosiphon pisum)]</Hit_def>
+  <Hit_accession>P57498</Hit_accession>
+  <Hit_len>473</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>34.2686</Hsp_bit-score>
+      <Hsp_score>77</Hsp_score>
+      <Hsp_evalue>5.71012</Hsp_evalue>
+      <Hsp_query-from>525</Hsp_query-from>
+      <Hsp_query-to>604</Hsp_query-to>
+      <Hsp_hit-from>49</Hsp_hit-from>
+      <Hsp_hit-to>128</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>24</Hsp_identity>
+      <Hsp_positive>37</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>82</Hsp_align-len>
+      <Hsp_qseq>YEPVLGVVKLQAKVAGTAGNEIDLAVSVEAASKDATANITVTASGSKLDGGENAAVIA--PGTLVTMFGHDLADQTVAADLS</Hsp_qseq>
+      <Hsp_hseq>YDDQLFFLKSDSKRHGTQGNEIDLALVVDGLQSEREQGITIDVAYRYFSTNKRKFIIADTPGH--EQYTRNMATGASTCDLS</Hsp_hseq>
+      <Hsp_midline>Y+  L  +K  +K  GT GNEIDLA+ V+    +    IT+  +       +   +IA  PG     +  ++A      DLS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>sp|B8D9K1.1|</Hit_id>
+  <Hit_def>RecName: Full=Sulfate adenylyltransferase subunit 1; AltName: Full=ATP-sulfurylase large subunit; AltName: Full=Sulfate adenylate transferase; Short=SAT [Buchnera aphidicola str. 5A (Acyrthosiphon pisum)]</Hit_def>
+  <Hit_accession>B8D9K1</Hit_accession>
+  <Hit_len>473</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>34.2686</Hsp_bit-score>
+      <Hsp_score>77</Hsp_score>
+      <Hsp_evalue>6.27509</Hsp_evalue>
+      <Hsp_query-from>525</Hsp_query-from>
+      <Hsp_query-to>604</Hsp_query-to>
+      <Hsp_hit-from>49</Hsp_hit-from>
+      <Hsp_hit-to>128</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>24</Hsp_identity>
+      <Hsp_positive>37</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>82</Hsp_align-len>
+      <Hsp_qseq>YEPVLGVVKLQAKVAGTAGNEIDLAVSVEAASKDATANITVTASGSKLDGGENAAVIA--PGTLVTMFGHDLADQTVAADLS</Hsp_qseq>
+      <Hsp_hseq>YDDQLFFLKSDSKRHGTQGNEIDLALVVDGLQSEREQGITIDVAYRYFSTNKRKFIIADTPGH--EQYTRNMATGASTCDLS</Hsp_hseq>
+      <Hsp_midline>Y+  L  +K  +K  GT GNEIDLA+ V+    +    IT+  +       +   +IA  PG     +  ++A      DLS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>sp|Q5XGR8.1|</Hit_id>
+  <Hit_def>RecName: Full=Endoribonuclease LACTB2; AltName: Full=Beta-lactamase-like protein 2 [Xenopus laevis]</Hit_def>
+  <Hit_accession>Q5XGR8</Hit_accession>
+  <Hit_len>287</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>33.113</Hsp_bit-score>
+      <Hsp_score>74</Hsp_score>
+      <Hsp_evalue>9.46564</Hsp_evalue>
+      <Hsp_query-from>405</Hsp_query-from>
+      <Hsp_query-to>439</Hsp_query-to>
+      <Hsp_hit-from>23</Hsp_hit-from>
+      <Hsp_hit-to>54</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>16</Hsp_identity>
+      <Hsp_positive>22</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>35</Hsp_align-len>
+      <Hsp_qseq>NPTPTSLAWDGTNLYVADASNRRVLVYTPGEPLIP</Hsp_qseq>
+      <Hsp_hseq>NPGPMTL--QGTNTYLVGTGSRRILIDT-GEPAVP</Hsp_hseq>
+      <Hsp_midline>NP P +L   GTN Y+    +RR+L+ T GEP +P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>487492</Statistics_db-num>
+      <Statistics_db-len>185956103</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
