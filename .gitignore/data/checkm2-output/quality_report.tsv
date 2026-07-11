@@ -1,2 +1,0 @@
-Name	Completeness	Contamination	Completeness_Model_Used	Translation_Table_Used	Coding_Density	Contig_N50	Average_Gene_Length	Genome_Size	GC_Content	Total_Coding_Sequences	Total_Contigs	Max_Contig_Length	Additional_Notes
-GCA_055850635.1_ASM5585063v1_genomic	97.73	0.39	Gradient Boost (General Model)	11	0.943	381302	351.4188888888889	4015979	0.65	3600	22	1515708	None
