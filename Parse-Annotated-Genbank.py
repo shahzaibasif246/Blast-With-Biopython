@@ -5,7 +5,7 @@ from Bio.SeqRecord import SeqRecord
 
 import os
 
-#os.chdir("/home/shahzaib/Desktop/Functional-Annotation")
+
 
 translation_sequences = list()
 

@@ -15,9 +15,11 @@ cur.execute("""CREATE TABLE IF NOT EXISTS status(
 
 
 
+
+
 for seq_record in SeqIO.parse("./data/Hypothetical-Protein-Sequence/hypothetical-protein-sequences.faa", "fasta"):
-    #cur.execute("""INSERT OR IGNORE INTO status(locus_tag, translation_sequence, status) VALUES(?, ?, ?)""", (seq_record.id, str(seq_record.seq), 'pending'))
-    #con.commit()
+    cur.execute("""INSERT OR IGNORE INTO status(locus_tag, translation_sequence, status) VALUES(?, ?, ?)""", (seq_record.id, str(seq_record.seq), 'pending'))
+    con.commit()
     sleep(10)
     try:
         file_name = f'./data/BLAST-XML-Files/{seq_record.id}.xml'
@@ -39,6 +41,4 @@ for seq_record in SeqIO.parse("./data/Hypothetical-Protein-Sequence/hypothetical
 
 
 
-#res = cur.execute("""SELECT * FROM status""")
 
-#print(res.fetchall())
