@@ -2,7 +2,7 @@
 
 This was a script I wrote to become more familiar with Biopython  
 
-Parse-Annotated-Genbank gets the hypothetical proteins translation sequences in the Genbank file. They are used to create SeqRecord Objects. This object is stored in a list, which is Used to create a FASTA file.  
+Parse-Annotated-Genbank gets the hypothetical proteins translation sequences in the Genbank file. They are used to create SeqRecord Objects. This object is stored in a list, which is used to create a FASTA file.  
 
 Blastp.sh is used to run the BLAST+ command line tool using swissprot database.  
 
